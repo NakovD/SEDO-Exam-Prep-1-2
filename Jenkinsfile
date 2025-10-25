@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    options {
-        ansiColor('xterm')
-        timestamps()
-    }
-
     stages {
         stage('Branch Filter') {
             when {
